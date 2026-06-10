@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0060F248B4177EABB8B15FC7 /* AIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A419C1552C39D8EC86A77B4 /* AIEngine.swift */; };
+		4411F55D29AFCB1CA7358087 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872A8CACC657FE11BC22527 /* Player.swift */; };
+		4B162C13E09BF3907917A769 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F36F37F47997E74106B91 /* CellView.swift */; };
+		6436D3F9417D700AC5B3FE6D /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E644C87FA30DFA12BB1076 /* GameViewModel.swift */; };
+		6AE928E383175F661E0802DC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F37FB57463505A5EF40EA8 /* BoardView.swift */; };
+		8DAF37795DA287E6549BF469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2842320DC7CC808D0AEFC934 /* Assets.xcassets */; };
+		99DD9338688F2968B15C02F9 /* TronTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693C00AE00EBA19B31E83C58 /* TronTheme.swift */; };
+		A29B94F14C5A7BB9EFCAD7C3 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58560A8EE898E03F80717BDC /* GameView.swift */; };
+		B7BB3946861776F824E18CBD /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CA6C8212BCB878294A497 /* SoundManager.swift */; };
+		BB2CC349C09D11D9CD43AC3A /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBAB3730BDBB3B6ECD1DCB3 /* StatusBarView.swift */; };
+		DEB0E65D2EE2A5276B63F531 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674D2E4ACF969AABBE0C5A1 /* Board.swift */; };
+		F0EA6CF6765EAD52D1FB4BDC /* TronTicTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2FC31DEB623646D05B32FE /* TronTicTacToeApp.swift */; };
+		FCF9ABB2BE10BF7ABF651F31 /* WinLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE51C09C084499967246FD5 /* WinLineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2842320DC7CC808D0AEFC934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A419C1552C39D8EC86A77B4 /* AIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIEngine.swift; sourceTree = "<group>"; };
+		3710726F3C79C3CCB57FAB81 /* TronTicTacToe.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TronTicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58560A8EE898E03F80717BDC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		6674D2E4ACF969AABBE0C5A1 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		667CA6C8212BCB878294A497 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		693C00AE00EBA19B31E83C58 /* TronTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TronTheme.swift; sourceTree = "<group>"; };
+		8E2FC31DEB623646D05B32FE /* TronTicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TronTicTacToeApp.swift; sourceTree = "<group>"; };
+		93E644C87FA30DFA12BB1076 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		9872A8CACC657FE11BC22527 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B84F36F37F47997E74106B91 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		C8F37FB57463505A5EF40EA8 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		CBE51C09C084499967246FD5 /* WinLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLineView.swift; sourceTree = "<group>"; };
+		DDBAB3730BDBB3B6ECD1DCB3 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		FC95CCF2EA40B01DAC613916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C8B710B75711CEA57AF9C25 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				693C00AE00EBA19B31E83C58 /* TronTheme.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		1D360283544289D56C49B476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3710726F3C79C3CCB57FAB81 /* TronTicTacToe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA5443A12C70D851AF72A7B /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				667CA6C8212BCB878294A497 /* SoundManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		6713369AF8CE8C33BC10F711 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8F37FB57463505A5EF40EA8 /* BoardView.swift */,
+				B84F36F37F47997E74106B91 /* CellView.swift */,
+				58560A8EE898E03F80717BDC /* GameView.swift */,
+				DDBAB3730BDBB3B6ECD1DCB3 /* StatusBarView.swift */,
+				CBE51C09C084499967246FD5 /* WinLineView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E3BEF87A4186A5C90D1FFB8 /* TronTicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				2842320DC7CC808D0AEFC934 /* Assets.xcassets */,
+				FC95CCF2EA40B01DAC613916 /* Info.plist */,
+				8E2FC31DEB623646D05B32FE /* TronTicTacToeApp.swift */,
+				4BA5443A12C70D851AF72A7B /* Audio */,
+				E602086983F328621D285FE3 /* Models */,
+				0C8B710B75711CEA57AF9C25 /* Styling */,
+				C5A0BAF1F89357E4296A7C15 /* ViewModels */,
+				6713369AF8CE8C33BC10F711 /* Views */,
+			);
+			path = TronTicTacToe;
+			sourceTree = "<group>";
+		};
+		C5A0BAF1F89357E4296A7C15 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93E644C87FA30DFA12BB1076 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E30FEBD18C52332544C9BA3D = {
+			isa = PBXGroup;
+			children = (
+				7E3BEF87A4186A5C90D1FFB8 /* TronTicTacToe */,
+				1D360283544289D56C49B476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E602086983F328621D285FE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A419C1552C39D8EC86A77B4 /* AIEngine.swift */,
+				6674D2E4ACF969AABBE0C5A1 /* Board.swift */,
+				9872A8CACC657FE11BC22527 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D1931CE787D7720F6186B9B /* TronTicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07641C0DF6DE88A8974507E9 /* Build configuration list for PBXNativeTarget "TronTicTacToe" */;
+			buildPhases = (
+				7FB17B6B0A7C71971CE71EDE /* Sources */,
+				4C174B658DAAECD3EAF858CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TronTicTacToe;
+			packageProductDependencies = (
+			);
+			productName = TronTicTacToe;
+			productReference = 3710726F3C79C3CCB57FAB81 /* TronTicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15916BBC568D197A64ACEF8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = A34F167B17B6966D2DCDC7BC /* Build configuration list for PBXProject "TronTicTacToe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E30FEBD18C52332544C9BA3D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D1931CE787D7720F6186B9B /* TronTicTacToe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C174B658DAAECD3EAF858CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAF37795DA287E6549BF469 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB17B6B0A7C71971CE71EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0060F248B4177EABB8B15FC7 /* AIEngine.swift in Sources */,
+				DEB0E65D2EE2A5276B63F531 /* Board.swift in Sources */,
+				6AE928E383175F661E0802DC /* BoardView.swift in Sources */,
+				4B162C13E09BF3907917A769 /* CellView.swift in Sources */,
+				A29B94F14C5A7BB9EFCAD7C3 /* GameView.swift in Sources */,
+				6436D3F9417D700AC5B3FE6D /* GameViewModel.swift in Sources */,
+				4411F55D29AFCB1CA7358087 /* Player.swift in Sources */,
+				B7BB3946861776F824E18CBD /* SoundManager.swift in Sources */,
+				BB2CC349C09D11D9CD43AC3A /* StatusBarView.swift in Sources */,
+				99DD9338688F2968B15C02F9 /* TronTheme.swift in Sources */,
+				F0EA6CF6765EAD52D1FB4BDC /* TronTicTacToeApp.swift in Sources */,
+				FCF9ABB2BE10BF7ABF651F31 /* WinLineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1037F2AA019E4AE01E49704F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TronTicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.TronTicTacToe;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FFEC509757BEFA55EC3646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TronTicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.TronTicTacToe;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		559AA213641362EF5A0F1637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		68C5FBA8A1F16197AEF13AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07641C0DF6DE88A8974507E9 /* Build configuration list for PBXNativeTarget "TronTicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1037F2AA019E4AE01E49704F /* Debug */,
+				26FFEC509757BEFA55EC3646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A34F167B17B6966D2DCDC7BC /* Build configuration list for PBXProject "TronTicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C5FBA8A1F16197AEF13AD0 /* Debug */,
+				559AA213641362EF5A0F1637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15916BBC568D197A64ACEF8B /* Project object */;
+}
