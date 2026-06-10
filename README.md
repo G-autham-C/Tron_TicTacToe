@@ -6,8 +6,9 @@ A TRON-inspired Tic Tac Toe game for iOS built with SwiftUI. Dark backgrounds, n
 
 ## Screenshots
 
-> _Add screenshots here after running on device/simulator._
-
+| Empty Board | Draw | Win |
+|:---:|:---:|:---:|
+| ![Empty Board](Screenshots/screenshot_empty.png) | ![Draw](Screenshots/screenshot_draw.png) | ![Win](Screenshots/screenshot_win.png) |
 ---
 
 ## Features
